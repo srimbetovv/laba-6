@@ -378,8 +378,7 @@ int chooseWhoRed(Country*& football, int nVirus) {
 		keyboard_button = _getch();
 		if (keyboard_button == 224) {
 			keyboard_button = _getch();
-			if (keyboard_button == 7
-				2) choose_menu--;
+			if (keyboard_button == 72) choose_menu--;
 			if (keyboard_button == 80) choose_menu++;
 		}
 		if (keyboard_button == 13) { system("cls"); return choose_menu; }
@@ -422,7 +421,7 @@ int chooseWhatRed(Country*& football, int choose) {
 
 
 		keyboard_button = _getch();
-    
+
 		if (keyboard_button == 224) {
 			keyboard_button = _getch();
 			if (keyboard_button == 72) choose_menu--;
